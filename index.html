@@ -1,55 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Grid & Flex Layout</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner JavaScript Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Beginner JavaScript Assignment</h1>
 
-  <!-- Header Section -->
-  <header class="site-header">
-    <h1>My Responsive Webpage</h1>
-    <p>Using CSS Grid & Flexbox</p>
-  </header>
+    <p id="greeting">Hello, welcome!</p>
+    <p id="loop-output"></p>
+    <p id="conditional-output"></p>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <ul class="nav-list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <!-- Buttons for DOM interaction -->
+    <button id="btnChangeText">Change Greeting</button>
+    <button id="btnShowNumbers">Show Numbers</button>
+    <button id="btnCheckAge">Check Age</button>
 
-  <!-- Main Grid Layout -->
-  <main class="layout-grid">
-    <!-- Content Area -->
-    <section class="content">
-      <h2>Main Content</h2>
-      <p>
-        This is the main content area. On larger screens it sits beside the sidebar,
-        while on smaller screens it stacks neatly.
-      </p>
-
-      <!-- Flexbox Cards -->
-      <div class="card-container">
-        <article class="card">
-          <h3>Card One</h3>
-          <p>Some text inside card one. Flexbox keeps these aligned.</p>
-        </article>
-        <article class="card">
-          <h3>Card Two</h3>
-          <p>Another card with sample content for demonstration.</p>
-        </article>
-        <article class="card">
-          <h3>Card Three</h3>
-          <p>This is the third card, showing flex alignment.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Sidebar -->
+    <script src="script.js"></script>
+</body>
+</html>
